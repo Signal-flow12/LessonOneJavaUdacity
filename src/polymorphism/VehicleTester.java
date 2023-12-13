@@ -11,6 +11,7 @@ public class VehicleTester {
         for (int i = 0; i < vehicles.length; i++) {
             Vehicle vehicle = vehicles[i];
             vehicle.speed();
+            vehicle.direction();
         }
     }
 }
